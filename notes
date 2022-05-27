@@ -1,0 +1,8 @@
+friction loss equation:
+    CQL => Coefficient, Quantity(gpm)/100, {Length(feet)/100}^2
+
+
+
+
+Smooth bore:
+	GPM = 29.7 * D**2 sqrt(np)

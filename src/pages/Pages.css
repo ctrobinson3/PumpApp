@@ -1,0 +1,19 @@
+.page-container {
+	padding: 100px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.equation-container,
+.solution-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+
+input {
+	width: 50px;
+}
+
+select {
+	width: 75px;
+}
