@@ -12,5 +12,14 @@ Friction Loss: FL = CQL
 Smooth Bore GPM: 29.7 * D^2 * sqrt(np)
 <br>
 Smooth Bore PSI: ((GPM/29.7)/d^2)^2
-test
-test
+<br>
+Key: <br>
+C = Coefficient (provided by IFSTA) <br>
+FL = Friction Loss <br>
+Q = Quantity (GPM) <br>
+L = Length (Feet) <br>
+D = Diameter (inches) of hose <br>
+d = Diameter (inches) of nozzle bore <br>
+PSI = Pounds per Square Inch (at nozzle) <br>
+<hr>
+Some knowledge of pumping helps in understanding how to set up a scene. Contact me for questions.
