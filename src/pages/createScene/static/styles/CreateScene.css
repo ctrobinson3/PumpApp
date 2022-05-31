@@ -1,0 +1,121 @@
+/* Discharge */
+.discharge-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-header {
+	height: 50px;
+	display: flex;
+}
+
+.btn-delete {
+	background-color: red;
+	color: white;
+}
+
+.label-header {
+	margin: 10px;
+}
+
+.add-hoseline {
+	margin: 10px;
+}
+
+.dis-btn {
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.dis-delete {
+	background-color: red;
+	color: white;
+}
+
+/* modal */
+.modal-btn {
+	display: flex;
+	justify-content: end;
+}
+
+.m-btn {
+	margin: 10px;
+}
+
+/* Hoselines */
+
+.hoseline-display {
+	display: flex;
+	margin: 10px;
+}
+
+.hose-form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hose-select,
+.hose-input {
+	width: 120px;
+	margin: 20px;
+}
+
+.hoses-div {
+	display: flex;
+	align-items: center;
+	min-height: 100px;
+}
+.hose-wrapper {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 30px;
+}
+
+/* Nozzles */
+
+.nozzle-btn {
+	height: 30px;
+}
+
+.noz-form-header {
+	display: flex;
+	justify-content: center;
+}
+
+.noz-form {
+	background-color: rgb(255, 132, 132);
+}
+
+.fog-options {
+	display: flex;
+	justify-content: center;
+}
+
+.smooth-options {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.noz-div {
+	margin: 10px;
+}
+
+.nozzle-wrapper {
+	border: 2px solid red;
+	width: 120px;
+	padding: 10px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.nozzle-container {
+	display: flex;
+	align-items: center;
+}

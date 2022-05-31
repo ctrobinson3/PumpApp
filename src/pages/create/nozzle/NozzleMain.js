@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import AddNozzle from './AddNozzle';
 import Nozzle from './Nozzle';
 
-const NozzleMain = ({ dischargeKey }) => {
+const NozzleMain = ({ dischargeKey, nozzleList, setNozzleList }) => {
 	//key
 	const nozzleKey = dischargeKey + 'noz';
 
@@ -36,7 +36,6 @@ const NozzleMain = ({ dischargeKey }) => {
 		gpm += gp;
 		if (ps > psi) psi = ps;
 	}
-	console.log(gpm, psi);
 
 	//actions
 	const saveNozzle = (nozzleObj) => {

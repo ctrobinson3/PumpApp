@@ -3,7 +3,6 @@ import EditHoseline from '../discharge/components/EditDischarge';
 
 const Hoseline = ({ hoseObj, index, deleteHose }) => {
 	//hose Fl
-	console.log(hoseObj);
 
 	//actions
 	const handleDelete = () => {

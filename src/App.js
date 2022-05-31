@@ -1,7 +1,7 @@
 import './App.css';
 import './pages/Pages.css';
 import Navbar from './components/Navbar';
-import { FrictionLoss, SmoothBore, Scene } from './pages';
+import { FrictionLoss, SmoothBore, CreateScene } from './pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RecoilRoot } from 'recoil';
@@ -12,9 +12,7 @@ function App() {
 		<>
 			{/* <FrictionLoss /> */}
 			{/* <SmoothBore /> */}
-
-			<Scene />
-			{/* <Scene2 /> */}
+			<CreateScene />
 		</>
 	);
 }
