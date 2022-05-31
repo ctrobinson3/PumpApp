@@ -12,4 +12,5 @@ Friction Loss: FL = CQL
 Smooth Bore GPM: 29.7 * D^2 * sqrt(np)
 <br>
 Smooth Bore PSI: ((GPM/29.7)/d^2)^2
-
+test
+test
