@@ -22,4 +22,31 @@ D = Diameter (inches) of hose <br>
 d = Diameter (inches) of nozzle bore <br>
 PSI = Pounds per Square Inch (at nozzle) <br>
 <hr>
-Some knowledge of pumping helps in understanding how to set up a scene. Contact me for questions.
+<h2>Getting Started</h2>
+<br>
+Initially, the screen should only show a "Create Scene" header with an "Add Discharge" button. On a fire scene, there can be many different hoses running off of a single engine, all with unique tasks their working on. For a basic scenario, we will have a 200' line with a 1 3/4" diameter running to a smooth bore nozzle. Our target GPM will be 185 GPM.
+<img src="img/CreateScene.PNG">
+<br>
+To start, click "Add Discharge". A window will pop up, asking for a discharge name. In this example, you can just add "Attack Line".
+<img src="img/AddDischarge.PNG">
+<br>
+Click "Create" and your new discharge will show up on the screen. From here, you have the option to add a nozzle or a hoseline. Nozzles and hoselines can be added in any order. We will start by adding our hose first.
+<img src="img/AttackLineBlank.PNG">
+<br>
+Select "Add Hose" and in this window, you're able to choose between 2.5" and 1.75" diameter hose as well as any length you want. Fire hose is usually made in 50' or 100' sections. For our attack line, let's choose to add 200' and click "Add".
+<img src="img/AddHose.PNG">
+<br>
+Now that we have our hose, select "Add Nozzle". On this window, we can choose to either add a fog nozzle or a smooth bore nozzle. Fire departments have different nozzle types for all different situations. New firefighters are expected to learn and memorize each and every nozzle name, the desired PSI at the nozzle, and the expected GPM. Smooth Bore nozzles have a seperate equation to calculate the relationship between the nozzle bore diameter and PSI to GPM.
+<img src="img/AddNozzle.PNG">
+<br>
+For this example, let's choose "Smooth Bore" for the nozzle type, 15/16" for diameter, and 50 PSI as the final selection. Click "Add" to set your nozzle.
+<img src="img/SmoothBore.PNG">
+<br>
+Once added, the program will calculate the GPM that the nozzle will produce at this PSI. In this case, it would be 184.58 GPM. On the fireground, driver operators and engineers don't worry too much about decimal points, but in the classroom, it's important to stay as precise as possible. 
+<br>
+Now we have our Attack Line set up. All that's left to do is select "Calculate" in our top line next to the attack line parameters. 
+<img src="img/Totals.PNG">
+<br>
+The program will calculate the total GPM from this discharge (when multiple nozzles are added, the total GPMs from each nozzle will be added together for this number), the total friction loss from the hoses, and what your pump discharge pressure should be set at, which is based off of friction loss and your nozzle pressures. The more nozzles and hoses taht are added, the more complex a scene will get for the pumper.
+<hr>
+Hopefully you enjoyed this, even if it might not fully make sense for you. If you have any questions or want to know more, please contact me!
